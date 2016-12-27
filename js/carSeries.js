@@ -319,7 +319,7 @@ for (var k=0; k<data.length; k++){
 
         }
         cdiv.appendChild(bdiv);
-        ;
+
     }
     div.appendChild(cdiv)
     fragment.appendChild(div);

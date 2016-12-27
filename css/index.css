@@ -26,6 +26,7 @@ body{
 }
 .clear{
 	clear: both;
+	line-height: normal;
 }
 /*顶部导航*/
 .topNav{
@@ -158,6 +159,83 @@ body{
 	height:139px;
 	border:1px solid rgb(217, 217, 217);
 }
+.nav .w1200{
+	width: 1200px;
+	height: 80px;
+	margin: 14px auto;
+}
+.nav .left{
+	width: 400px;
+	border-right: 1px solid #EEEEEE;
+	padding: 16px 22px 16px 0;
+	float: left;
+}
+.nav p{
+	font-size: 16px;
+	font-weight: bold;
+	float: left;
+}
+.nav .arrow-icon{
+	width:8px;
+	height: 4px;
+	background: url("../image/icon2.png") no-repeat 0 -130px;
+	margin-top: 6px;
+	display: block;
+	float: right;
+}
+.nav .brand{
+	height: 48px;
+	margin-top: 14px;
+}
+.nav .brand a{
+	float: left;
+	padding: 0 4px;
+	text-align: center;
+}
+.nav .brand img{
+	width: 32px;
+	height: 24px;
+}
+.nav .brand span{
+	display: block;
+	font-size: 12px;
+	color: #666666;
+	margin-top: 6px;
+}
+.nav .center{
+	float: left;
+	padding: 16px 22px;
+	border-right: 1px solid #EEEEEE;
+	width: 400px;
+}
+.nav i{
+	width: 36px;
+	height: 20px;
+	display: block;
+	background: url("../image/car_modal_sprite.png") no-repeat left top;
+	margin-bottom: 10px;
+	margin-top: 2px;
+}
+.nav .right{
+	width: 280px;
+	float: left;
+	padding: 16px 22px;
+}
+.nav .text{
+	font-size: 16px;
+	font-weight: bold;
+}
+.nav .price{
+	margin: 14px 0 0 6px;
+}
+.nav .price a{
+	color: #666;
+	font-size: 12px;
+	display: block;
+	width: 52px;
+	float: left;
+	margin: 6px;
+}
 /*主体内容*/
 .main{
 	padding-top:90px;
@@ -286,7 +364,7 @@ body{
 	font-size: 14px;
 	padding-bottom: 10px;
 }
-.bottomNav ul li p{
+.bottomNav ul li a{
 	font-size: 12px;
 	color: #717171;
 	line-height: 24px;
@@ -300,6 +378,7 @@ body{
 }
 .city a{
 	line-height: 24px;
+	color: #717171;
 	padding: 0 5px;
 }
 
@@ -368,22 +447,34 @@ body{
 .fixedNav .anchor .icon{
 	margin:10px 0 8px 18px;
 	display:block;
-	width:16px;
+	width:18px;
 	height:16px;
 	background-size:0;
 	background-color:black;
 }
 .fixedNav .anchor .favor{
-	background-position:;
+	background: url("../image/icon2.png") no-repeat left top;
+}
+.fixedNav .anchor:hover .favor{
+	background: url("../image/icon2.png") no-repeat left -20px;
 }
 .fixedNav .anchor .consult{
-	background-position:;
+	background: url("../image/icon2.png") no-repeat -20px top;
+}
+.fixedNav .anchor:hover .consult{
+	background: url("../image/icon2.png") no-repeat -20px -20px;
 }
 .fixedNav .anchor .sell{
-	background-position:;
+	background: url("../image/icon2.png") no-repeat -40px -42px;
+}
+.fixedNav .anchor:hover .sell{
+	background: url("../image/icon2.png") no-repeat -40px -60px;
 }
 .fixedNav .anchor .feedback{
-	background-position:;
+	background: url("../image/icon2.png") no-repeat -80px top;
+}
+.fixedNav .anchor:hover .feedback{
+	background: url("../image/icon2.png") no-repeat -80px -20px;
 }
 .fixedNav .anchor span{
 	margin-left:16px;
