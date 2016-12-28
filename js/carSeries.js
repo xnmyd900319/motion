@@ -95,66 +95,42 @@ var data = [
                         name : "奥迪Q3",
                         href : ""
                     },
-                ]
-            },
-        ]
-
-    },
-    {
-        title : "A",
-        series : [
-            {
-                name : "A 阿尔法罗密欧",
-                href : "",
-                car : [
                     {
-                        name : "ALFA 156",
+                        name : "奥迪A6L",
                         href : ""
                     },
                     {
-                        name : "ALFA 166",
+                        name : "奥迪A4L",
                         href : ""
                     },
                     {
-                        name : "ALFA GT",
-                        href : ""
-                    },
-                ]
-            },
-            {
-                name : "A 阿斯顿・马丁",
-                href : "",
-                car : [
-                    {
-                        name : "V8 Vantage",
+                        name : "奥迪Q7",
                         href : ""
                     },
                     {
-                        name : "Vanquish",
+                        name : "奥迪R8",
                         href : ""
                     },
                     {
-                        name : "Rapide",
+                        name : "奥迪S8",
                         href : ""
                     },
                     {
-                        name : "阿斯顿・马丁DB9",
+                        name : "奥迪A8",
                         href : ""
                     },
                     {
-                        name : "阿斯顿・马丁DBS",
+                        name : "奥迪Q5",
                         href : ""
                     },
                     {
-                        name : "拉共达Taraf",
+                        name : "奥迪A7",
                         href : ""
                     },
-                ]
-            },
-            {
-                name : "A 奥迪",
-                href : "",
-                car : [
+                    {
+                        name : "奥迪Q3",
+                        href : ""
+                    },
                     {
                         name : "奥迪A6L",
                         href : ""
@@ -197,94 +173,362 @@ var data = [
 
     },
     {
-        title : "A",
+        title : "B",
         series : [
             {
-                name : "A 阿尔法罗密欧",
+                name : "B 宝骏",
                 href : "",
                 car : [
                     {
-                        name : "ALFA 156",
+                        name : "宝骏630",
                         href : ""
                     },
                     {
-                        name : "ALFA 166",
+                        name : "宝骏310",
                         href : ""
                     },
                     {
-                        name : "ALFA GT",
+                        name : "乐驰",
+                        href : ""
+                    },
+                    {
+                        name : "宝骏330",
+                        href : ""
+                    },
+                    {
+                        name : "宝骏560",
+                        href : ""
+                    },
+                    {
+                        name : "宝骏610",
                         href : ""
                     },
                 ]
             },
             {
-                name : "A 阿斯顿・马丁",
+                name : "B 宝马",
                 href : "",
                 car : [
                     {
-                        name : "V8 Vantage",
+                        name : "宝马3系",
                         href : ""
                     },
                     {
-                        name : "Vanquish",
+                        name : "宝马5系",
                         href : ""
                     },
                     {
-                        name : "Rapide",
+                        name : "宝马3系(进口)",
                         href : ""
                     },
                     {
-                        name : "阿斯顿・马丁DB9",
+                        name : "宝马5系(进口)",
                         href : ""
                     },
                     {
-                        name : "阿斯顿・马丁DBS",
+                        name : "宝马7系",
                         href : ""
                     },
                     {
-                        name : "拉共达Taraf",
+                        name : "宝马X3",
+                        href : ""
+                    },
+                    {
+                        name : "宝马X5",
+                        href : ""
+                    },
+                    {
+                        name : "宝马X6",
+                        href : ""
+                    },
+                    {
+                        name : "宝马X1(进口)",
+                        href : ""
+                    },
+                    {
+                        name : "宝马2系",
+                        href : ""
+                    },
+                    {
+                        name : "宝马M2",
+                        href : ""
+                    },
+                    {
+                        name : "宝马6系",
+                        href : ""
+                    },
+                    {
+                        name : "宝马1系",
+                        href : ""
+                    },
+                    {
+                        name : "宝马X1",
+                        href : ""
+                    },
+                    {
+                        name : "宝马M3",
+                        href : ""
+                    },
+                    {
+                        name : "宝马M5",
+                        href : ""
+                    },
+                    {
+                        name : "宝马M6",
+                        href : ""
+                    },
+                    {
+                        name : "宝马X5 M",
+                        href : ""
+                    },
+                    {
+                        name : "宝马X6 M",
+                        href : ""
+                    },
+                    {
+                        name : "宝马Z4",
+                        href : ""
+                    },
+                    {
+                        name : "宝马2系旅行车",
+                        href : ""
+                    },
+                    {
+                        name : "宝马4系",
+                        href : ""
+                    },
+                    {
+                        name : "宝马3系GT",
+                        href : ""
+                    },
+                    {
+                        name : "宝马2系Gran",
+                        href : ""
+                    },
+                    {
+                        name : "Tourer",
+                        href : ""
+                    },
+                    {
+                        name : "宝马X4",
+                        href : ""
+                    },
+                    {
+                        name : "宝马1系M",
+                        href : ""
+                    },
+                    {
+                        name : "宝马5系GT",
+                        href : ""
+                    },
+                    {
+                        name : "宝马i3",
+                        href : ""
+                    },
+                    {
+                        name : "宝马i8",
                         href : ""
                     },
                 ]
             },
             {
-                name : "A 奥迪",
+                name : "B 保时捷",
                 href : "",
                 car : [
                     {
-                        name : "奥迪A6L",
+                        name : "Cayman       ",
                         href : ""
                     },
                     {
-                        name : "奥迪A4L",
+                        name : "保时捷911",
                         href : ""
                     },
                     {
-                        name : "奥迪Q7",
+                        name : "Macan",
                         href : ""
                     },
                     {
-                        name : "奥迪R8",
+                        name : "Panamera",
                         href : ""
                     },
                     {
-                        name : "奥迪S8",
+                        name : "卡宴",
                         href : ""
                     },
                     {
-                        name : "奥迪A8",
+                        name : "保时捷918",
                         href : ""
                     },
                     {
-                        name : "奥迪Q5",
+                        name : "保时捷718",
                         href : ""
                     },
                     {
-                        name : "奥迪A7",
+                        name : "Boxster",
+                        href : ""
+                    },
+                ]
+            },
+        ]
+
+    },
+    {
+        title : "C",
+        series : [
+            {
+                name : "C 昌河",
+                href : "",
+                car : [
+                    {
+                        name : "福瑞达",
                         href : ""
                     },
                     {
-                        name : "奥迪Q3",
+                        name : "爱迪尔",
+                        href : ""
+                    },
+                    {
+                        name : "爱迪尔",
+                        href : ""
+                    },
+                    {
+                        name : "昌河Q35",
+                        href : ""
+                    },
+                    {
+                        name : "昌河Q25",
+                        href : ""
+                    },
+                    {
+                        name : "昌河Q25",
+                        href : ""
+                    },
+                    {
+                        name : "昌铃王",
+                        href : ""
+                    },
+                    {
+                        name : "福瑞达M50",
+                        href : ""
+                    },
+                ]
+            },
+            {
+                name : "C 长安",
+                href : "",
+                car : [
+                    {
+                        name : "奔奔",
+                        href : ""
+                    },
+                    {
+                        name : "杰勋",
+                        href : ""
+                    },
+                    {
+                        name : "志翔",
+                        href : ""
+                    },
+                    {
+                        name : "悦翔",
+                        href : ""
+                    },
+                    {
+                        name : "长安CX20",
+                        href : ""
+                    },
+                    {
+                        name : "长安CX30",
+                        href : ""
+                    },
+                    {
+                        name : "逸动",
+                        href : ""
+                    },
+                    {
+                        name : "长安CS35",
+                        href : ""
+                    },
+                    {
+                        name : "睿骋",
+                        href : ""
+                    },
+                    {
+                        name : "长安CX70",
+                        href : ""
+                    },
+                    {
+                        name : "长安CS15",
+                        href : ""
+                    },
+                    {
+                        name : "奔奔i",
+                        href : ""
+                    },
+                    {
+                        name : "悦翔V3",
+                        href : ""
+                    },
+                    {
+                        name : "悦翔V5",
+                        href : ""
+                    },
+                    {
+                        name : "奔奔MINI",
+                        href : ""
+                    },
+                    {
+                        name : "悦翔V7",
+                        href : ""
+                    },
+                    {
+                        name : "奔奔LOVE",
+                        href : ""
+                    },
+                    {
+                        name : "长安CS75",
+                        href : ""
+                    },
+                ]
+            },
+            {
+                name : "C 长城",
+                href : "",
+                car : [
+                    {
+                        name : "赛酷        ",
+                        href : ""
+                    },
+                    {
+                        name : "风骏3",
+                        href : ""
+                    },
+                    {
+                        name : "酷熊",
+                        href : ""
+                    },
+                    {
+                        name : "酷熊",
+                        href : ""
+                    },
+                    {
+                        name : "长城精灵",
+                        href : ""
+                    },
+                    {
+                        name : "嘉誉",
+                        href : ""
+                    },
+                    {
+                        name : "嘉誉",
+                        href : ""
+                    },
+                    {
+                        name : "赛影",
+                        href : ""
+                    },
+                    {
+                        name : "赛弗",
                         href : ""
                     },
                 ]
@@ -297,16 +541,27 @@ var data = [
 for (var k=0; k<data.length; k++){
     var div = document.createElement("div"),
         cdiv = document.createElement("div"),
+        ediv = document.createElement("div"),
         h3 = document.createElement("h3"),
         h3Text = document.createTextNode(data[k].title),
         fragment = document.createDocumentFragment();
+    h3.className = "sort";
+    div.className = "box";
+    cdiv.className = "box1";
+    ediv.className = "clear";
     h3.appendChild(h3Text);
     div.appendChild(h3);
+
     for (var j=0; j<data[k].series.length; j++){
         var bdiv = document.createElement("div"),
             adiv = document.createElement("div"),
+            fdiv = document.createElement("div"),
             a1 = document.createElement("a"),
             a1Text = document.createTextNode(data[k].series[j].name);
+        bdiv.className = "box2";
+        adiv.className = "box3";
+        a1.className = "brand";
+        fdiv.className = "clear";
         a1.appendChild(a1Text);
         bdiv.appendChild(a1);
 
@@ -316,12 +571,13 @@ for (var k=0; k<data.length; k++){
             a.appendChild(aText);
             adiv.appendChild(a);
             bdiv.appendChild(adiv);
-
+            a.className = "car";
         }
+        bdiv.appendChild(fdiv);
         cdiv.appendChild(bdiv);
-
     }
     div.appendChild(cdiv)
+    div.appendChild(ediv);
     fragment.appendChild(div);
     oMain.appendChild(fragment);
 }

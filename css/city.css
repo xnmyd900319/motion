@@ -194,3 +194,96 @@ body{
     font-size: 12px;
     margin: 10px auto;
 }
+
+/*侧边栏*/
+.fixedNav{
+    position:fixed;
+    right:0;
+    bottom:50px;
+    width:52px;
+    height:284px;
+    z-index:1;
+    transition:width .25s;
+}
+.fixedNav:hover{
+    width:80px;
+}
+.fixedNav:hover .anchor span{
+    width:auto;
+}
+.fixedNav div{
+    height:34px;
+    overflow:hidden;
+    background-color:rgb(255, 88, 26);
+    text-indent:14px;
+    font-size:14px;
+    line-height:34px;
+    color:white;
+}
+.fixedNav .anchor{
+    float:left;
+    width:100%;
+    height:54px;
+    overflow:hidden;
+    background-color:rgb(247, 247, 247);
+    border-bottom:1px solid rgb(230, 230, 230);
+    border-left:1px solid rgb(230, 230, 230);
+    font-size:12px;
+    color:rgb(102, 102, 102);
+}
+.fixedNav .anchor:hover{
+    background-color:white;
+}
+.fixedNav .anchor .icon{
+    margin:10px 0 8px 18px;
+    display:block;
+    width:18px;
+    height:16px;
+    background-size:0;
+    background-color:black;
+}
+.fixedNav .anchor .favor{
+    background: url("../image/icon2.png") no-repeat left top;
+}
+.fixedNav .anchor:hover .favor{
+    background: url("../image/icon2.png") no-repeat left -20px;
+}
+.fixedNav .anchor .consult{
+    background: url("../image/icon2.png") no-repeat -20px top;
+}
+.fixedNav .anchor:hover .consult{
+    background: url("../image/icon2.png") no-repeat -20px -20px;
+}
+.fixedNav .anchor .sell{
+    background: url("../image/icon2.png") no-repeat -40px -42px;
+}
+.fixedNav .anchor:hover .sell{
+    background: url("../image/icon2.png") no-repeat -40px -60px;
+}
+.fixedNav .anchor .feedback{
+    background: url("../image/icon2.png") no-repeat -80px top;
+}
+.fixedNav .anchor:hover .feedback{
+    background: url("../image/icon2.png") no-repeat -80px -20px;
+}
+.fixedNav .anchor span{
+    margin-left:16px;
+    display:block;
+    width:24px;
+    height:12px;
+    overflow:hidden;
+}
+.top{
+    position:fixed;
+    right:0;
+    bottom:50px;
+    width:52px;
+    height:25px;
+    background-color:rgb(51, 51, 51);
+    text-align:center;
+    font-size:12px;
+    line-height:25px;
+    color:white;
+    cursor:pointer;
+    z-index:1;
+}
